@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sign in to your Northstar account." />
+    <title>Northstar | Sign in</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="login-shell">
+      <section class="welcome-panel" aria-label="Northstar introduction">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="grid-lines"></div>
+        <a class="brand" href="#" aria-label="Northstar home">
+          <span class="brand-mark" aria-hidden="true">✦</span>
+          <span>northstar</span>
+        </a>
+        <div class="welcome-copy">
+          <p class="eyebrow">Your work, in orbit</p>
+          <h1>Make space for your <em>best</em> thinking.</h1>
+          <p class="intro">A calmer command center for ambitious teams, ideas, and the work that moves everything forward.</p>
+        </div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="star star-one">✦</div>
+        <div class="star star-two">✦</div>
+        <p class="copyright">© 2025 Northstar Studio</p>
+      </section>
+
+      <section class="form-panel" aria-labelledby="login-title">
+        <div class="form-wrap">
+          <div class="mobile-brand brand">
+            <span class="brand-mark" aria-hidden="true">✦</span>
+            <span>northstar</span>
+          </div>
+          <div class="form-heading">
+            <p class="eyebrow">Welcome back</p>
+            <h2 id="login-title">Sign in to continue</h2>
+            <p>New here? <a href="#create-account">Create an account</a></p>
+          </div>
+
+          <form class="login-form" action="#" method="post">
+            <label class="field">
+              <span>Email address</span>
+              <input type="email" name="email" placeholder="you@company.com" autocomplete="email" required />
+            </label>
+            <label class="field">
+              <span>Password</span>
+              <input type="password" name="password" placeholder="Enter your password" autocomplete="current-password" required />
+            </label>
+            <div class="form-options">
+              <label class="checkbox-label">
+                <input type="checkbox" name="remember" />
+                <span class="checkmark" aria-hidden="true"></span>
+                Remember me
+              </label>
+              <a href="#forgot-password">Forgot password?</a>
+            </div>
+            <button type="submit">Sign in <span aria-hidden="true">→</span></button>
+          </form>
+
+          <div class="divider"><span>or continue with</span></div>
+          <div class="social-buttons">
+            <button class="social-button" type="button" aria-label="Continue with Google"><strong>G</strong></button>
+            <button class="social-button" type="button" aria-label="Continue with Apple"><strong>●</strong></button>
+            <button class="social-button" type="button" aria-label="Continue with Microsoft"><strong>⊞</strong></button>
+          </div>
+          <p class="terms">By continuing, you agree to our <a href="#terms">Terms</a> and <a href="#privacy">Privacy Policy</a>.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
